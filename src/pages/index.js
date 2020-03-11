@@ -102,7 +102,7 @@ export default () => (
             Drive more traffic. Convert more leads.
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            You can use the word limit in your content package however you need. So whether it be through crafting SEO optimized blog content, high converting landing pages or effective ads, you'll get all the copy you need to grow your business.
+            You can use the word limit in your content package however you need. So whether it be through crafting SEO optimized blog content, high converting ebooks or effective white papers, you'll get all the copy you need to grow your business.
           </p>
         </div>
       }
