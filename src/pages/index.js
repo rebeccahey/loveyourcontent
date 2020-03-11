@@ -9,6 +9,13 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import ab_tasty from "../img/ab_tasty.svg";
+import gmelius from "../img/gmelius.svg";
+import bubblegum from "../img/bubblegum.svg";
+import website_planet from "../img/website_planet.svg";
+import alternate1 from "../img/alternate1.png";
+import alternate2 from "../img/alternate2.png";
+import alternate3 from "../img/alternate3.png";
 
 export default () => (
   <Layout>
@@ -16,117 +23,151 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Grow your business with content.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Power your business with done-for-you content marketing covering strategy, planning and production.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+          <a href="https://strategically.outgrow.us/strategically-2">
+            <Button size="lg">GET A QUOTE</Button></a>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="clients" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
-        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
+        <LabelText className="text-gray-600">TRUSTED BY BRANDS LIKE YOURS</LabelText>
+        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
+          <div className="w-full sm:w-1/4">
+          <img
+                src={bubblegum}
+              />
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
+          <div className="w-full sm:w-1/4">
+          <img
+                src={gmelius}
+              />
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
+          <div className="w-full sm:w-1/4">
+          <img
+                src={website_planet}
+              />
+          </div>
+          <div className="w-full sm:w-1/4">
+          <img
+                src={ab_tasty}
+              />
           </div>
         </div>
       </div>
     </section>
     <SplitSection
-      id="services"
+      id="process"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Execute an actionable content plan, without lifting a finger.</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            From day one, you’ll get a dedicated project manager who'll work with you to define your content goals and create a tailored strategy. We'll get our SEO analyst to research your target keywords, which we'll then use to craft you a monthly content calendar.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={      <img
+                  src={alternate1}
+                />}
     />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Get your content written by the best.
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            However complex your niche or industry, we'll write content that drives results, every time. We're a team of highly experienced, native English writers and editors who've been published on authority blogs and brand websites, so you can count on us for quality.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img
+                  src={alternate2}
+                />}
     />
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Drive more traffic. Convert more leads.
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            You can use the word limit in your content package however you need. So whether it be through crafting SEO optimized blog content, high converting landing pages or effective ads, you'll get all the copy you need to grow your business.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img
+                  src={alternate3}
+                />}
     />
-    <section id="stats" className="py-20 lg:pt-32">
+
+    <section id="pricing" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+        <h2 className="text-3xl lg:text-5xl font-semibold">Simple, scalable pricing.</h2>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+          <div class="border-t-2 border-red-600 border-t-8 rounded-lg">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Pay as you go</p>
+              <p className="mt-4">
+                Per article</p>
+                <p className="mt-4">
+                  £0.40 per word</p>
+                  <p className="mt-4">Blog posts</p>
+                  <p className="mt-4">White papers</p>
+                  <p className="mt-4">Ebooks</p>
+                  <p className="mt-4">Unlimited Revisions</p>
+            </Card>
+            </div>
           </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          <div className="flex-1 px-3">
+          <div class="border-t-2 border-orange-500 border-t-8 rounded-lg">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Grow Package</p>
+              <p className="mt-4">
+                12 articles (6000 words)</p>
+                <p className="mt-4">
+                  £2000 per month</p>
+                  <p className="mt-4">Keyword Research</p>
+                  <p className="mt-4">Topic Creation</p>
+                  <p className="mt-4">Monthly Content Calendar</p>
+                  <p className="mt-4">Unlimited Revisions</p>
+            </Card>
+            </div>
           </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          <div className="flex-1 px-3">
+          <div class="border-t-2 border-green-600 border-t-8 rounded-lg">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Scale Package</p>
+              <p className="mt-4">
+                24 articles (12,000 words)</p>
+                <p className="mt-4">
+                  £3250 per month</p>
+                  <p className="mt-4">Keyword Research</p>
+                  <p className="mt-4">Topic Creation</p>
+                  <p className="mt-4">Monthly Content Calendar</p>
+                  <p className="mt-4">Unlimited Revisions</p>
+            </Card>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">SaaS companies, digital agencies and consultancies work with us to grow their business.</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -136,14 +177,19 @@ export default () => (
         </div>
       </div>
     </section>
+
+
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Ready to grow your business with content?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        Boost your rankings and generate more leads with flexible content packages to suit every business.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+      <a href="https://strategically.outgrow.us/strategically-2">
+        <Button size="xl">GET A QUOTE NOW</Button>
+        </a>
       </p>
     </section>
+
   </Layout>
 );
