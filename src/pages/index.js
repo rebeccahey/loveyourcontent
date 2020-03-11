@@ -107,7 +107,7 @@ export default () => (
         </div>
       }
       secondarySlot={<SvgCharts />}
-        
+
     />
 
     <section id="pricing" className="py-20 lg:pb-40 lg:pt-48">
@@ -120,8 +120,6 @@ export default () => (
               <p className="font-semibold text-xl">Pay as you go</p>
               <p className="mt-4">
                 Per article</p>
-                <p className="mt-4">
-                  £0.40 per word</p>
                   <p className="mt-4">Blog posts</p>
                   <p className="mt-4">White papers</p>
                   <p className="mt-4">Ebooks</p>
@@ -135,8 +133,6 @@ export default () => (
               <p className="font-semibold text-xl">Grow Package</p>
               <p className="mt-4">
                 12 articles (6000 words)</p>
-                <p className="mt-4">
-                  £2000 per month</p>
                   <p className="mt-4">Keyword Research</p>
                   <p className="mt-4">Topic Creation</p>
                   <p className="mt-4">Monthly Content Calendar</p>
@@ -150,8 +146,6 @@ export default () => (
               <p className="font-semibold text-xl">Scale Package</p>
               <p className="mt-4">
                 24 articles (12,000 words)</p>
-                <p className="mt-4">
-                  £3250 per month</p>
                   <p className="mt-4">Keyword Research</p>
                   <p className="mt-4">Topic Creation</p>
                   <p className="mt-4">Monthly Content Calendar</p>
@@ -160,6 +154,9 @@ export default () => (
             </div>
           </div>
         </div>
+        <a href="https://strategically.outgrow.us/strategically-2">
+          <Button size="xl">GET A QUOTE NOW</Button>
+          </a>
       </div>
     </section>
 
