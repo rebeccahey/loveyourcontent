@@ -106,9 +106,8 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<img
-                  src={alternate3}
-                />}
+      secondarySlot={<SvgCharts />}
+        
     />
 
     <section id="pricing" className="py-20 lg:pb-40 lg:pt-48">
