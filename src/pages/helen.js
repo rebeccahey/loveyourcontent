@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from '../components/layout/Layout';
-import helen from "../img/helen.jpg";
+import helen from '../img/helen.jpg';
 
-const PrivacyPage = () => (
+const HelenPage = () => (
 <Layout>
 <img
       src={helen}
@@ -10,4 +10,4 @@ const PrivacyPage = () => (
 </Layout>
 )
 
-export default PrivacyPage;
+export default HelenPage;

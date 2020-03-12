@@ -5,7 +5,7 @@ export default [
       'Experience includes proofreading and copy editing non-fiction eBooks, novel manuscripts, legal documents and articles, entertainment blogs, website copy and informative brochures and guides, to name just a few.',
     writerName: 'Helen G',
     writerTitle: 'Proofreader & Copy-Editor',
-    writerImage: 'https://lp.strategically/helen'
+    writerImage: 'https://strategically.co/assets/images/gmelius.svg'
   },
   {
     title: '"It has been really great working with the team at Strategically.',
